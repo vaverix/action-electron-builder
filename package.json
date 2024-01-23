@@ -3,10 +3,11 @@
 	"version": "1.6.0",
 	"description": "GitHub Action for building and releasing Electron apps",
 	"author": {
-		"name": "William Hutchinson",
-		"email": "hutch@macro.com"
+		"name": "Samuel Meuli",
+		"email": "me@samuelmeuli.com",
+		"url": "https://samuelmeuli.com"
 	},
-	"repository": "github:coparse-inc/action-electron-builder",
+	"repository": "github:vaverix/action-electron-builder",
 	"license": "MIT",
 	"private": true,
 	"main": "./index.js",

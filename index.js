@@ -106,7 +106,7 @@ const runAction = () => {
 	setEnv("ADBLOCK", true);
 
 	log(`Installing dependencies using ${useNpm ? "NPM" : "Yarn"}…`);
-	run(useNpm ? "npm install" : "yarn", pkgRoot);
+	run(useNpm ? "npm install" : "yarn install --network-timeout 600000", pkgRoot);
 
 	// Run NPM build script if it exists
 	if (skipBuild) {

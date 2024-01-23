@@ -1,5 +1,5 @@
 name: Electron Builder Action Forked Updated
-author: Samuel Meuli
+author: Samuel Meuli (updated by vaverix)
 description: GitHub Action for building and releasing Electron apps
 
 inputs:

@@ -1,4 +1,4 @@
-name: Macro Electron Builder Action
+name: Electron Builder Action - Fork
 author: William Hutchinson
 description: GitHub Action for building and releasing Electron apps
 

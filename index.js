@@ -104,9 +104,9 @@ const runAction = () => {
 
 	// Disable console advertisements during install phase
 	setEnv("ADBLOCK", true);
-
-	log(`Installing dependencies using ${useNpm ? "NPM" : "Yarn"}…`);
-	run(useNpm ? "npm install" : "yarn install --network-timeout 900000", pkgRoot);
+	const installCmd = useNpm ? "npm install" : "yarn install --network-timeout 900000";
+	log(`Installing dependencies using command: ${installCmd}`);
+	run(installCmd, pkgRoot);
 
 	// Run NPM build script if it exists
 	if (skipBuild) {
